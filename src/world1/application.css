@@ -1,0 +1,4 @@
+.ButtonMenu {
+    -fx-background-color: transparent; /* Makes background fully show */
+    -fx-border-color: transparent; /* Removes border if needed */
+}

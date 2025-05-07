@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#onKeyPressed" onKeyReleased="#onKeyReleased" prefHeight="664.0" prefWidth="612.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="world1.controller2">
+   <children>
+      <ImageView fitHeight="664.0" fitWidth="612.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../MyHouse.png" />
+         </image>
+      </ImageView>
+      <StackPane fx:id="MyStack" layoutX="12.0" layoutY="487.0" opacity="0.0" prefHeight="150.0" prefWidth="580.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="565.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../dialog_box.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="MyLabel" prefHeight="36.0" prefWidth="519.0">
+               <font>
+                  <Font name="Verdana Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>
